@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bubbling</title>
+  </head>
+  <body>
+    <div class="gallery">
+      <!-- Tarjeta 1 -->
+      <div class="card">
+        <img src="https://picsum.photos/300/200?random=1" alt="Imagen aleatoria">
+        <h3>Título de la Imagen 1</h3>
+        <div class="card-buttons">
+          <button class="like-btn">❤️ <span>0</span></button>
+          <button class="delete-btn">❌</button>
+        </div>
+        <p class="description">Esta es una breve descripción de la imagen 1.</p>
+      </div>
+      <!-- Tarjeta 2 -->
+      <div class="card">
+        <img src="https://picsum.photos/300/200?random=2" alt="Imagen aleatoria">
+        <h3>Título de la Imagen 2</h3>
+        <div class="card-buttons">
+          <button class="like-btn">❤️ <span>0</span></button>
+          <button class="delete-btn">❌</button>
+        </div>
+        <p class="description">Esta es una breve descripción de la imagen 2.</p>
+      </div>
+      <!-- Tarjeta 3 -->
+      <div class="card">
+        <img src="https://picsum.photos/300/200?random=3" alt="Imagen aleatoria">
+        <h3>Título de la Imagen 3</h3>
+        <div class="card-buttons">
+          <button class="like-btn">❤️ <span>0</span></button>
+          <button class="delete-btn">❌</button>
+        </div>
+        <p class="description">Esta es una breve descripción de la imagen 3.</p>
+      </div>
+      <!-- Tarjeta 4 -->
+      <div class="card">
+        <img src="https://picsum.photos/300/200?random=4" alt="Imagen aleatoria">
+        <h3>Título de la Imagen 4</h3>
+        <div class="card-buttons">
+          <button class="like-btn">❤️ <span>0</span></button>
+          <button class="delete-btn">❌</button>
+        </div>
+        <p class="description">Esta es una breve descripción de la imagen 4.</p>
+      </div>
+      <!-- Tarjeta 5 -->
+      <div class="card">
+        <img src="https://picsum.photos/300/200?random=5" alt="Imagen aleatoria">
+        <h3>Título de la Imagen 5</h3>
+        <div class="card-buttons">
+          <button class="like-btn">❤️ <span>0</span></button>
+          <button class="delete-btn">❌</button>
+        </div>
+        <p class="description">Esta es una breve descripción de la imagen 5.</p>
+      </div>
+      <!-- Tarjeta 6 -->
+      <div class="card">
+        <img src="https://picsum.photos/300/200?random=6" alt="Imagen aleatoria">
+        <h3>Título de la Imagen 6</h3>
+        <div class="card-buttons">
+          <button class="like-btn">❤️ <span>0</span></button>
+          <button class="delete-btn">❌</button>
+        </div>
+        <p class="description">Esta es una breve descripción de la imagen 6.</p>
+      </div>
+    </div>
+
+    <!-- Modal para imagen ampliada -->
+    <div id="modal" class="modal">
+      <span class="close-modal">&times;</span>
+      <img class="modal-content" id="modal-image">
+    </div>
+
+    <!-- Botón para volver arriba -->
+    <button id="back-to-top" class="hidden">↑</button>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
